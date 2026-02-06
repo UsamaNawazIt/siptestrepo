@@ -1,0 +1,45 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj/project.xcworkspace
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+.swiftpm
+/.build
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Related to Mac
+.DS_Store
+**/.DS_Store
+*/.DS_Store
+
+# Temporary files
+*.swp
+*.lock
+
+# Application specific
+siptest.xcworkspace
+
+# Secrets and certificates
+*.cer
+*.p12
+*.mobileprovision
